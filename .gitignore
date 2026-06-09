@@ -1,0 +1,41 @@
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+env/
+harmonia_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local databases and generated data
+data/
+
+# Vector database
+src/Vector_DB/
+
+# Generated metadata
+src/metadata/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Test/cache files
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
